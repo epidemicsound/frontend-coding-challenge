@@ -17,8 +17,9 @@ GitHub Codespaces are cloud-based development environments built on top of Micro
 1. Please log-in to your GitHub account, if you haven't already.
 2. Click the "Open in GitHub Codespaces" button to open this repository in a Codespace.
 3. Take a minute to get acquianted with the interface—we're here for questions if you need!
-    a. Navigate to `App.jsx` and change some HTML content. Does hot reloading work?
-    b. Verify everything is working as expected by changing some HTML content. Does hot reloading work?
+    a. On the left-hand side panel, select the "Run and Debug" tab, followed by the green play button "Start Debugging" to run the application.
+    b. Navigate to `App.jsx` and change some HTML content to verify that everything is working.
+    c. Verify everything is working as expected by changing some HTML content. Does hot reloading work?
 4. You're ready to go! Your interviewer will give you today's coding challenge prompt now. Best of luck!
 5. (optional) After receiving your coding challenge prompt, if you want to install any additional packages, libraries, or frameworks, you can do so in the console via `npm`.
 
