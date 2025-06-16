@@ -1,0 +1,126 @@
+{
+    /**
+     * @see https://www.typescriptlang.org/tsconfig
+     */
+    "compilerOptions": {
+        /**
+         * Do not emit compiler output files like JavaScript source code,
+         * source-maps or declarations.
+         * @see https://www.typescriptlang.org/tsconfig#noEmit
+         */
+        "noEmit": true,
+
+        /**
+         * Not enabling it yet as people might complain about all the errors
+         * that will pop-up. In the meantime you can overwrite this setting to true
+         * but please do not push the change.
+         */
+        "checkJs": false,
+
+        /**
+         * We allow everything to be understood by Typescript. But beware that Babel only understand
+         * what is defined inside the babelrc.json.
+         * Changes which JS features are downleveled and which are left intact.
+         * @see https://www.typescriptlang.org/tsconfig#target
+         */
+        "target": "ES2021",
+
+        /**
+         * Enables support for dynamic imports.
+         */
+        "module": "ES2020",
+
+        /**
+         * Allows importing modules with a '.json' extension, which is a common practice in node projects.
+         * This includes generating a type for the import based on the static JSON shape.
+         * @see https://www.typescriptlang.org/tsconfig#resolveJsonModule
+         */
+        "resolveJsonModule": true,
+
+        /**
+         * Enable incremental compilation.
+         * @see https://www.typescriptlang.org/tsconfig#incremental
+         */
+        "incremental": true,
+
+        /**
+         * Enable all strict type-checking options.
+         * @see https://www.typescriptlang.org/tsconfig#strict
+         */
+        "strict": true,
+
+        /**
+         * Emit additional JavaScript to ease support for importing CommonJS modules.
+         * This enables `allowSyntheticDefaultImports` for type compatibility.
+         * @see https://www.typescriptlang.org/tsconfig#esModuleInterop
+         */
+        "esModuleInterop": true,
+
+        /**
+         * Specify what JSX code is generated.
+         * The `preserve` mode will keep the JSX as part of the output to be
+         * further consumed by another transform step (e.g. Babel).
+         * @see https://www.typescriptlang.org/tsconfig#jsx
+         */
+        "jsx": "preserve",
+
+        /**
+         * Create source map files for emitted JavaScript files.
+         * @see https://www.typescriptlang.org/tsconfig#sourceMap
+         */
+        "sourceMap": true,
+
+        /**
+         * Ensure that each file can be safely transpiled without relying on other imports.
+         * @see https://www.typescriptlang.org/tsconfig#isolatedModules
+         */
+        "isolatedModules": true,
+
+        /**
+         * Ensure that casing is correct in imports.
+         * @see https://www.typescriptlang.org/tsconfig#forceConsistentCasingInFileNames
+         */
+        "forceConsistentCasingInFileNames": true,
+
+        /**
+         * Disable error reporting for codepaths that do not explicitly return in a function.
+         * @see https://www.typescriptlang.org/tsconfig#noImplicitReturns
+         */
+        "noImplicitReturns": false,
+
+        /**
+         * Enable error reporting for fallthrough cases in switch statements.
+         * @see https://www.typescriptlang.org/tsconfig#noFallthroughCasesInSwitch
+         */
+        "noFallthroughCasesInSwitch": true,
+
+        /**
+         * Skip type checking of declaration files.
+         * This can save time during compilation at the expense of type-system accuracy.
+         * For example, two libraries could define two copies of the same type in an
+         * inconsistent way. Rather than doing a full check of all d.ts files, TypeScript
+         * will type check the code you specifically refer to in your app’s source code.
+         * @see https://www.typescriptlang.org/tsconfig#skipLibCheck
+         */
+        "skipLibCheck": true,
+
+        /**
+         * Allow JavaScript files to be imported inside your project,
+         * instead of just .ts and .tsx files.
+         * @see https://www.typescriptlang.org/tsconfig#allowJs
+         */
+        "allowJs": true,
+
+        /**
+         * Specify the module resolution strategy.
+         * @see https://www.typescriptlang.org/tsconfig#moduleResolution
+         */
+        "moduleResolution": "node",
+
+        /**
+         * Specify the base URL for non-absolute module names.
+         * @see https://www.typescriptlang.org/tsconfig#baseUrl
+         */
+        "baseUrl": "./src",
+    }
+}
