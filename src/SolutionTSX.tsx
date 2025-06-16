@@ -1,7 +1,7 @@
 import "./Solution.css";
 
 function Solution() {
-  return "hello world";
+  return null;
 }
 
 export default Solution;
