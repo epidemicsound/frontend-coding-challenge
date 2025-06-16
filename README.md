@@ -17,12 +17,10 @@ You've already completed the very first step—finding this repository! Before w
 
 1. Please log-in to your GitHub account, if you haven't already.
 2. Click the "Open in GitHub Codespaces" button at the bottom of this page to open this repository in a Codespace.
-3. Take a minute to get acquianted with the interface—we're here for questions if you need!
-    1. On the left-hand side panel, select the "Run and Debug" tab, followed by the green play button "Start Debugging" to run the application.
-    2. Navigate to `src/Solution.jsx`. In the browser preview, you should see some text that reads "Hello World".
-    3. Verify everything is working as expected by changing some HTML content. Does hot reloading work?
-4. Share your screen in the meeting room (if in-person) or in the Google Meet (if remote) so that the interviewer can follow along as you work.
-5. You're ready to go! Your interviewer will give you today's coding challenge prompt now. Best of luck!
+    1. Follow instructions to create the Codespace instance. You will be brought to a setup window with some settings. Keep the default settings and then click "Create codespace" to start it up.
+    2. Wait a bit for the application to initialize. A browser window running the application (with hot-reloading!) should open by default, as well as files where you will implement your solution. These files are called `src/SolutionJSX.jsx` and `src/SolutionTSX.tsx`, please feel free to choose either depending on if you want to use JavaScript and JSX or TypeScript and TSX.
+3. Share your screen in the meeting room (if in-person) or in the Google Meet (if remote) so that the interviewer can follow along as you work.
+4. You're ready to go! Your interviewer will give you today's coding challenge prompt now. Best of luck!
 
 Questions? Please feel free to ask your interviewer for help!
 

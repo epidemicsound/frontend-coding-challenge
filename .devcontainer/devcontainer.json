@@ -12,7 +12,8 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "src/Solution.jsx"
+        "src/SolutionJSX.jsx",
+        "src/SolutionTSX.tsx"
       ]
     }
   },
