@@ -7,20 +7,23 @@ Welcome! This repository is the starting point for your frontend interview at Ep
 Today, you'll work to build a small UI component with some expected behavior and requirements using HTML, JavaScript/TypeScript, and CSS. You may use any Web framework/library you like, but we encourage you to use React, our preferred frontend library here
 at Epidemic Sound.
 
-This live-coding exercise will be conducted in GitHub Codespaces. Your interviewer will guide you some brief set-up before providing you with today's interview question!
+This live-coding exercise will be conducted in GitHub Codespaces, which are cloud-based development environments integrated with Microsoft VSCode. If you're used to using VSCode, or really any IDE, you'll feel right at home! You can learn more about Codespaces [by clicking here](https://github.com/features/codespaces).
 
-GitHub Codespaces are cloud-based development environments built on top of Microsoft VSCode. If you're used to using VSCOde, or really any IDE, you'll feel right at home! You can learn more about Codespaces [by clicking here](https://github.com/features/codespaces).
+## Set-up Instructions
 
-## Set-up instructions
+You've already completed the very first step—finding this repository! Before we get started, please follow the instructions below to set-up your live-coding environment.
 
-0. You've found this repository! 🥳
 1. Please log-in to your GitHub account, if you haven't already.
-2. Click the "Open in GitHub Codespaces" button to open this repository in a Codespace.
+2. Click the "Open in GitHub Codespaces" button at the bottom of this page to open this repository in a Codespace.
 3. Take a minute to get acquianted with the interface—we're here for questions if you need!
     1. On the left-hand side panel, select the "Run and Debug" tab, followed by the green play button "Start Debugging" to run the application.
-    2. Navigate to `src/Solution.jsx` and change some HTML content to verify that everything is working.
+    2. Navigate to `src/Solution.jsx`. In the browser preview, you should see some text that reads "Hello World".
     3. Verify everything is working as expected by changing some HTML content. Does hot reloading work?
-4. You're ready to go! Your interviewer will give you today's coding challenge prompt now. Best of luck!
-5. (optional) After receiving your coding challenge prompt, if you want to install any additional packages, libraries, or frameworks, you can do so in the console via `npm`.
+4. Share your screen in the meeting room (if in-person) or in the Google Meet (if remote) so that the interviewer can follow along as you work.
+5. You're ready to go! Your interviewer will give you today's coding challenge prompt now. Best of luck!
+
+Questions? Please feel free to ask your interviewer for help!
+
+### Click Here
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=996838511)
