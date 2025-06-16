@@ -1,4 +1,6 @@
-# frontend-code-assignment
+# frontend-coding-challenge
+
+![Splash image depicting hands holding drum sticks playing a stylized mirror-like cymbal reflecting the sky](splash.png "Splash")
 
 ## Overview
 
