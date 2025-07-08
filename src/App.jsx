@@ -1,5 +1,4 @@
-import SolutionJSX from "./SolutionJSX";
-import SolutionTSX from "./SolutionTSX";
+import Solution from "./Solution";
 import "./App.css";
 
 function App() {
@@ -10,8 +9,7 @@ function App() {
         <p>Output will be rendered below</p>
       </div>
       <div className="app-solution">
-        <SolutionJSX />
-        <SolutionTSX />
+        <Solution />
       </div>
     </div>
   );
